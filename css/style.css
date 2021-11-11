@@ -1,6 +1,9 @@
 html {
     font-family: Helvetica, arial, sans-serif;
 }
+body {
+    min-width: 350px;
+}
 header {
     width: 100%;
 }
