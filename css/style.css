@@ -17,3 +17,10 @@ header {
 header span ul li i {
     font-size: 1em;
 }
+
+
+@media screen and (max-width: 991px) {
+    .nav-right-side {
+        display: none;
+    }
+}
