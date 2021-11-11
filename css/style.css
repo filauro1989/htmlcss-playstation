@@ -4,6 +4,16 @@ html {
 body {
     min-width: 350px;
 }
+
+/* header */
 header {
     width: 100%;
+    position: sticky;
+}
+/* navbar */
+.dropdown-menu.my_navbar img{
+    width: 50%;
+}
+header .navbar .dropdown-menu {
+    position: static;
 }
