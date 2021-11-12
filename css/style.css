@@ -37,7 +37,7 @@ header span ul li i {
 /* Jumbotron */
 .jumbotron {
     width: 100%;
-    height: 50vh;
+    height: 700px;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,6 +47,15 @@ header span ul li i {
 /* playstation 5 */
 .playstation-5 .no-limits {
     font-size: 1em;
+}
+
+/* sponsored game */
+.sponsored-game {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
 }
 
 @media screen and (max-width: 991px) {
