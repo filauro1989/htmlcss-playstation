@@ -16,6 +16,11 @@ header span ul li i {
     font-size: 1em;
 }
 
+/* utilities */
+.rounded-5 {
+    border-radius: 15px;
+}
+
 /* Main */
 /* Jumbotron */
 .jumbotron {
