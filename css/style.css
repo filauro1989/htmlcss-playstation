@@ -2,6 +2,7 @@
     --blue-color:#0070D1;
     --grey-color:#8B8B8B;
     --darkgrey-bg: #1F1F1F;
+    --grey-bg: #BEBCBB;
 }
 
 body {
@@ -36,6 +37,9 @@ header span ul li i {
 .bg-dark-grey {
     background-color: var(--darkgrey-bg);
 }
+.bg-grey {
+    background-color: var(--grey-bg);
+}
 
 /* Main */
 /* Jumbotron */
@@ -60,6 +64,11 @@ header span ul li i {
     background-size: cover;
     background-position: center;
     height: 600px;
+}
+
+/* playstation plus */
+.playstation-plus {
+    /* height: 400px; */
 }
 
 @media screen and (max-width: 991px) {
