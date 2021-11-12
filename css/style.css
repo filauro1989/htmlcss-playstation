@@ -1,5 +1,11 @@
+:root {
+    --blue-color:#0070D1;
+    --grey-color:#8B8B8B;
+}
+
 body {
     font-family: Helvetica, arial, sans-serif;
+    font-weight: bold;
     min-width: 350px;
 }
 
@@ -20,6 +26,12 @@ header span ul li i {
 .rounded-5 {
     border-radius: 15px;
 }
+.grey-text {
+    color: var(--grey-color);
+}
+.blue-text {
+    color: var(--blue-color);
+}
 
 /* Main */
 /* Jumbotron */
@@ -30,6 +42,11 @@ header span ul li i {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* playstation 5 */
+.playstation-5 .no-limits {
+    font-size: 1em;
 }
 
 @media screen and (max-width: 991px) {
