@@ -3,6 +3,7 @@
     --grey-color:#8B8B8B;
     --darkgrey-bg: #1F1F1F;
     --grey-bg: #BEBCBB;
+    --darkblue-bg: #161C3B;
 }
 
 body {
@@ -39,6 +40,9 @@ header span ul li i {
 }
 .bg-grey {
     background-color: var(--grey-bg);
+}
+.bg-dark-blue {
+    background-color: var(--darkblue-bg);
 }
 
 /* Main */
