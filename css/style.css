@@ -70,11 +70,6 @@ header span ul li i {
     height: 600px;
 }
 
-/* playstation plus */
-.playstation-plus {
-    /* height: 400px; */
-}
-
 /* footer */
 footer {
     background-color: #00439C;
@@ -90,8 +85,8 @@ footer ul li a {
 }
 
 
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
     .nav-right-side {
         display: none;
     }
-}
+} */
