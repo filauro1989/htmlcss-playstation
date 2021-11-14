@@ -50,6 +50,9 @@ header span ul li i {
 }
 
 /* Main */
+main button.btn:hover {
+    box-shadow: inset 0px 0px 0px 2px white;
+}
 /* Jumbotron */
 .jumbotron {
     width: 100%;
@@ -95,6 +98,22 @@ header span ul li i {
     background-size: cover;
     background-position: center;
     height: 600px;
+}
+
+/* upcoming games */
+.upcoming-games img:hover {
+    cursor: pointer;
+}
+
+/* play station plus */
+/* play station now */
+.playstation-plus button.btn:hover,
+.playstation-now button.btn:hover,
+.playstation-plus button.btn:active,
+.playstation-now button.btn:active,
+.playstation-plus button.btn:focus,
+.playstation-now button.btn:focus {
+    box-shadow: inset 0px 0px 0px 2px black;
 }
 
 /* footer */
