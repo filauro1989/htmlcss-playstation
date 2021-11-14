@@ -4,6 +4,7 @@
     --darkgrey-bg: #1F1F1F;
     --grey-bg: #BEBCBB;
     --darkblue-bg: #161C3B;
+    --white-bg: #FFFFFF;
 }
 
 body {
@@ -44,6 +45,9 @@ header span ul li i {
 .bg-dark-blue {
     background-color: var(--darkblue-bg);
 }
+.bg-white {
+    background-color: var(--white-bg);
+}
 
 /* Main */
 /* Jumbotron */
@@ -55,10 +59,33 @@ header span ul li i {
     background-size: cover;
     background-position: center;
 }
+/* games under jumbo */
+
+.games-under-jumbo .games-images {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+.games-under-jumbo .games-images:hover,
+.games-under-jumbo .games-images:focus,
+.games-under-jumbo .games-images:active {
+    top: -10px;
+}
 
 /* playstation 5 */
 .playstation-5 .no-limits {
     font-size: 1em;
+}
+.playstation-5 .ps5-footer .ps5-footer-image {
+    opacity: 0.7;
+    border-bottom: 3px solid transparent;
+    transition: opacity 0.3s, border-bottom 0.3s;
+}
+.playstation-5 .ps5-footer-image:hover,
+.playstation-5 .ps5-footer-image:focus,
+.playstation-5 .ps5-footer-image:active {
+    opacity: 1;
+    border-bottom: 3px solid var(--blue-color);
 }
 
 /* sponsored game */
